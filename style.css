@@ -1,0 +1,41 @@
+
+body{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.container {
+    max-width: 400px;
+    text-align:center;
+    /* border: 2px solid black; */
+}
+
+#result {
+    background: greenyellow;
+    text-align: right;
+    height: 60px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    width: 100px;
+    /* border: 1px solid black; */
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#equal{
+    background:rgb(64, 132, 177);
+}
